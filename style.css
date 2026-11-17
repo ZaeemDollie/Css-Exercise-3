@@ -110,9 +110,9 @@ main img {
   justify-content: center;
   text-align: center;
   color: white;
-  background: linear-gradient(120deg, #064e3b, #0ea5a4, #2563eb);
+  background: linear-gradient(120deg,  blue, #0ea5a4, #2563eb);
   background-size: 200% 200%;
-  animation: hero-background 12s ease infinite;
+  animation: hero-background 3s ease infinite;
 }
 
 .hero h2 {
