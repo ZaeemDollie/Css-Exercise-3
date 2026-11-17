@@ -7,46 +7,77 @@
     <link rel="stylesheet" href="style.css" />
     <title>Products</title>
   </head>
+
   <body>
+    <div class="topnav" id="myTopnav">
+      <a href="#products" class="active">Products</a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
     <header>
       <h1>Products</h1>
     </header>
+
     <main>
-      <section class="Gallery Image1">
-        <img src="image1.jpg" alt="Image 1" />
+      <div class="Image1">
         <h3>Mugs</h3>
+        <img src="image1.jpg" alt="Image 1" />
         <p></p>
-      </section>
+      </div>
 
-      <section class="Gallery Image2">
-        <img src="image2.jpg" alt="Image 2" />
+      <div class="Image2">
         <h3>T-Shirts</h3>
+        <img src="image2.jpg" alt="Image 2" />
         <p></p>
-      </section>
+      </div>
 
-      <section class="Gallery Image3">
-        <img src="image3.jpg" alt="Image 3" />
+      <div class="Image3">
         <h3>Caps</h3>
+        <img src="image3.jpg" alt="Image 3" />
         <p></p>
-      </section>
+      </div>
 
-      <section class="Gallery Image4">
-        <img src="image4.jpg" alt="Image 4" />
+      <div class="Image4">
         <h3>Hoodies</h3>
+        <img src="image4.jpg" alt="Image 4" />
         <p></p>
-      </section>
+      </div>
 
-      <section class="Gallery Image5">
-        <img src="image5.jpg" alt="Image 5" />
+      <div class="Image5">
         <h3>Socks</h3>
+        <img src="image5.jpg" alt="Image 5" />
         <p></p>
-      </section>
+      </div>
 
-      <section class="Gallery Image6">
-        <img src="image6.jpg" alt="Image 6" />
+      <div class="Image6">
         <h3>Glasses</h3>
+        <img src="image6.jpg" alt="Image 6" />
         <p></p>
-      </section>
+      </div>
+
+      <style>
+        body {
+          width: fill;
+          height: fill;
+          background-color: rgb(red green blue / alpha);
+          animation-name: myAnimation;
+          animation-duration: 15s;
+        }
+
+        @keyframes myAnimation {
+          from {
+            background-color: red;
+          }
+          to {
+            background-color: blue;
+          }
+        }
+      </style>
     </main>
   </body>
 </html>

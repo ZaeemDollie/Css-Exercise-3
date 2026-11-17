@@ -1,3 +1,101 @@
 body {
   background-color: aqua;
 }
+
+.image1 {
+  position: relative;
+  top: 0px;
+  bottom: 0px;
+  right: 200px;
+  height: 300px;
+  width: 200px;
+}
+
+.image2 {
+  position: relative;
+  top: 0px;
+  bottom: 0px;
+  height: 300px;
+  width: 200px;
+}
+
+.image3 {
+  position: relative;
+  top: 0px;
+  bottom: 0px;
+  height: 300px;
+  width: 200px;
+}
+
+.image4 {
+  position: relative;
+  top: 0px;
+  bottom: 0px;
+  height: 300px;
+  width: 200px;
+}
+
+.image5 {
+  position: relative;
+  top: 0px;
+  bottom: 0px;
+  height: 300px;
+  width: 200px;
+}
+
+.image6 {
+  position: relative;
+  top: 0px;
+  bottom: 0px;
+  height: 300px;
+  width: 200px;
+}
+
+h1 {
+  position: relative;
+  text-align: center;
+}
+
+main {
+  position: relative;
+  justify-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 600px);
+  justify-content: space-between;
+  gap: 24px;
+}
+
+main img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.topnav {
+  background-color: white;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: aqua;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: black;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
