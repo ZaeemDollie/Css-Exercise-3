@@ -9,6 +9,10 @@
   </head>
 
   <body>
+    <div class="page-loader" role="status" aria-label="Loading">
+      <span class="loader-spinner"></span>
+    </div>
+
     <div class="topnav" id="myTopnav">
       <a href="#products" class="active">Products</a>
       <a href="#news">News</a>
@@ -19,59 +23,77 @@
       </a>
     </div>
 
+    <section class="hero">
+      <h2>Welcome to Our Store</h2>
+      <p>Explore our products</p>
+      <a class="cta-button" href="#products">Shop Now</a>
+    </section>
+
     <header>
       <h1>Products</h1>
     </header>
 
-    <main>
+    <main id="products">
       <div class="Image1">
         <h3>Mugs</h3>
         <img src="image1.jpg" alt="Image 1" />
-        <p></p>
+        <strong>
+        <p>R150.00</p>
+        </strong>
       </div>
 
       <div class="Image2">
         <h3>T-Shirts</h3>
         <img src="image2.jpg" alt="Image 2" />
-        <p></p>
+        <strong></strong>
+        <p>R400.00</p>
+        </strong>
       </div>
 
       <div class="Image3">
         <h3>Caps</h3>
         <img src="image3.jpg" alt="Image 3" />
-        <p></p>
+        <strong>
+        <p>R250.00</p>
+        </strong>
       </div>
 
       <div class="Image4">
         <h3>Hoodies</h3>
         <img src="image4.jpg" alt="Image 4" />
-        <p></p>
+        <strong>
+        <p>R600.00</p>
+        </strong>
       </div>
 
       <div class="Image5">
         <h3>Socks</h3>
         <img src="image5.jpg" alt="Image 5" />
-        <p></p>
+        <strong>
+        <p>R100.00</p>
+        </strong>
       </div>
 
       <div class="Image6">
         <h3>Glasses</h3>
         <img src="image6.jpg" alt="Image 6" />
-        <p></p>
+        <strong>
+        <p>R250.00</p>
+        </strong>
       </div>
 
       <style>
         body {
           width: fill;
           height: fill;
-          background-color: rgb(red green blue / alpha);
+          background-color: aqua, blue;
           animation-name: myAnimation;
           animation-duration: 15s;
         }
 
         @keyframes myAnimation {
           from {
-            background-color: red;
+            background-color: aqua;
           }
           to {
             background-color: blue;
@@ -79,5 +101,10 @@
         }
       </style>
     </main>
+    <script>
+      window.addEventListener("load", () => {
+        document.querySelector(".page-loader").classList.add("is-hidden");
+      });
+    </script>
   </body>
 </html>
