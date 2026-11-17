@@ -21,7 +21,6 @@ main img {
   width: 300px;
   height: 300px;
   object-fit: cover;
-
 }
 
 .topnav {
@@ -110,7 +109,7 @@ main img {
   justify-content: center;
   text-align: center;
   color: white;
-  background: linear-gradient(120deg,  blue, #0ea5a4, #2563eb);
+  background: linear-gradient(120deg, blue, #0ea5a4, #2563eb);
   background-size: 200% 200%;
   animation: hero-background 3s ease infinite;
 }
@@ -126,6 +125,9 @@ main img {
   color: black;
 }
 
+.hero a {
+  animation: spinner-turn 2500ms linear infinite;
+}
 @keyframes hero-background {
   0%,
   100% {
